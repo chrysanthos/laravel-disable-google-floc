@@ -1,0 +1,45 @@
+{
+    "name": "chrysanthos/laravel-disable-google-floc",
+    "description": "Automatically disable Google's Floc in Laravel",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Chrysanthos Prodromou",
+            "email": "chrysanthos.prodromou@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^7.4|^8.0",
+        "illuminate/contracts": "^6.0|^7.30|^8.37"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "orchestra/testbench": "^6.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chrysanthos\\DisableFloc\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chrysanthos\\DisableFloc\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/testbench package:test --parallel --no-coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Chrysanthos\\DisableFloc\\DisableFlocServiceProvider"
+            ]
+        }
+    }
+}
