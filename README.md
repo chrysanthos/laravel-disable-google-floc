@@ -1,5 +1,10 @@
 # Automatically disable Google's FLoC in Laravel apps
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/chrysanthos/laravel-disable-google-floc.svg?style=flat-square)](https://packagist.org/packages/chrysanthos/laravel-disable-google-floc)
+[![run-tests](https://github.com/chrysanthos/laravel-disable-google-floc/actions/workflows/tests.yml/badge.svg)](https://github.com/chrysanthos/laravel-disable-google-floc/actions/workflows/tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/chrysanthos/laravel-disable-google-floc.svg?style=flat-square)](https://packagist.org/packages/chrysanthos/laravel-disable-google-floc)
+
+
 This package automatically disables [Google's FLoC](https://plausible.io/blog/google-floc) for your laravel app.
 
 
