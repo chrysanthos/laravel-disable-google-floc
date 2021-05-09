@@ -1,4 +1,6 @@
-<?php namespace Chrysanthos\DisableFloc\Tests;
+<?php
+
+namespace Chrysanthos\DisableFloc\Tests;
 
 use Chrysanthos\DisableFloc\DisableFlocServiceProvider;
 use Illuminate\Support\Facades\Route;

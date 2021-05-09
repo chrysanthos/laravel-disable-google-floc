@@ -1,4 +1,6 @@
-<?php namespace Chrysanthos\DisableFloc;
+<?php
+
+namespace Chrysanthos\DisableFloc;
 
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Support\ServiceProvider;
