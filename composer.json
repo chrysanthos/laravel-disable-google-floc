@@ -7,13 +7,13 @@
     "authors": [
         {
             "name": "Chrysanthos Prodromou",
-            "email": "chrysanthos.prodromou@gmail.com",
+            "email": "me@chrysanthos.xyz",
             "role": "Developer"
         }
     ],
     "require": {
         "php": ">7.4",
-        "illuminate/contracts": "^8.0|^9.0"
+        "illuminate/contracts": "^8.0|^9.0|^10.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
